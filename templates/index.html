@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome | Email Sender</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section" style="margin-top: 150px;">
+    <div class="container" style="width:500px; margin:auto;">
+        <div class="box">
+            <h1 class="title has-text-centered">
+              Welcome to E-mail Sender
+            </h1>
+            <hr>
+            <form action="/submit" method="post">
+                <div class="field">
+                    <label class="label">Enter Your CSV File Name:</label>
+                    <div class="control">
+                      <input class="input" name="file_name" type="text" placeholder="e.g example">
+                    </div>
+                </div>
+                <div class="has-text-centered">
+                    <button class="button is-primary is-outlined" type="submit">Submit</button>
+                </div>
+        
+            </form>
+        </div>
+    </div>
+  </section>
+  </body>
+</html>
+
